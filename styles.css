@@ -1,0 +1,48 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    flex-basis: 100px;
+    font-size: 14px;
+    font-style: italic;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+input {
+    flex-grow: 1;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.unit {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 10px;
+}
+
+#alert {
+    display: none;
+    background-color: #ffcccc;
+    color: #ff0000;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
